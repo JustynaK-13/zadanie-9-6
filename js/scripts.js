@@ -3,9 +3,12 @@ var add = document.getElementById("addElem");
 
 add.addEventListener('click', function() {
   var element = document.createElement('li');
-  element.innerHTML = 'item';
-  
-  var itemsByTagName = length.getElementsByTagName('li');
+  var text = element.innerHTML = 'item';
 
-    console.log(itemsByTagName);
+  /*
+	var x = document.getElementsByTagName('item').length
+
+  */
+  
+  list.appendChild(element);
 });
