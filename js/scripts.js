@@ -3,12 +3,13 @@ var add = document.getElementById("addElem");
 
 add.addEventListener('click', function() {
   var element = document.createElement('li');
-  var text = element.innerHTML = 'item';
 
-  /*
-	var x = document.getElementsByTagName('item').length
+  var i = element.innerHTML = 'item';
+  var x = document.getElementsByTagName('li');
+  		for (var i = 1; i <= x.length; i++) {
+  			x[i]} 
+  		
 
-  */
-  
   list.appendChild(element);
+       
 });
