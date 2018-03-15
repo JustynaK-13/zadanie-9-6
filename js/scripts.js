@@ -4,12 +4,10 @@ var add = document.getElementById("addElem");
 add.addEventListener('click', function() {
   var element = document.createElement('li');
 
-  var i = element.innerHTML = 'item';
-  var x = document.getElementsByTagName('li');
-  		for (var i = 1; i <= x.length; i++) {
-  			x[i]} 
+  var x = document.getElementsByTagName('li').length;
+  var y = x++;
+  element.innerHTML = 'item'+ y; 
   		
-
   list.appendChild(element);
        
 });
